@@ -1,1 +1,180 @@
+:root {
+  background-color: #282726;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Hanken Grotesk", sans-serif;
+  height: 100%;
+  overflow: hidden;
+}
 
+body {
+  height: inherit;
+}
+
+#root {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* This contains css for the title and notice for every game */
+
+.item-box {
+  margin: 10px 0px;
+  background:inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.noticebox {
+  height: 25%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
+  ;
+}
+
+.notice-box-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:#F9F4DA;
+  width: 100%;
+}
+
+.notice-box-1 h1  {
+  margin: 0;
+
+}
+
+.notice-box-1  p {
+  margin: 0;
+  width: 60%;
+  text-align: center;
+  color: #8E8E8E;
+}
+
+
+
+.notice-box-2{
+  /* visibility: hidden; */
+  width: 100%;
+  height: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+  background-color: #7A5EA7;
+}
+
+
+/* This contains css for the title language for every game */
+
+.languagebox {
+  height: 10%;
+  width: 35%;
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap ;
+
+  
+}
+
+.language-box-item{
+  height: 47%;
+  color: white;
+  background: #2b66db;
+  margin:0px 1px;
+  padding: 0px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+
+}
+
+.language-removed {
+  opacity: 0.3;
+  text-decoration: line-through;
+  color: red;
+}
+
+
+/* This contains css for the game placeholder */
+
+.placeholderbox {
+  height: 7.5%;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px;
+}
+
+.placeholder-box-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 1px;
+  height: 100%;
+  width: 12.5%;
+  background: #323232;
+  border-bottom: white 1px solid;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: white;
+}
+
+.plaveholder-box-item:hover{
+  background: #F9F4DA;
+  color: #282726;
+  cursor: pointer;
+}
+
+/* This contains css for the keyboard  */
+
+.keyboardbox {
+  height: 30%;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.keyboard-box-item{
+  
+  margin:5px 5px;
+  height: 30%;
+  width: 8.5%;
+  background: #FCBA29;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid white
+}
+
+.keyboard-box-item:hover{
+  background: #F9F4DA;
+  color: #282726;
+  cursor: pointer;
+}
+
+.key-red{
+  background-color: red;
+}
+
+.key-green{
+  background-color: green;
+}
