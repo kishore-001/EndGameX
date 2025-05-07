@@ -11,17 +11,18 @@ export const wordlist = [
 
 
 
-export const languages = [
-    { id: 1 , name: "HTML", status: true },
-    { id: 2 , name: "CSS", status: true },
-    { id: 3 , name: "Javascript", status: true },
-    { id: 4 , name: "React", status: true },
-    { id: 5 , name: "Typescript", status: true },
-    { id: 6 , name: "Node.js", status: true },
-    { id: 7 , name: "Python", status: true },
-    { id: 8 , name: "Ruby", status: true },
-    { id: 9 , name: "Assembly", status: true }
+  export const languages = [
+    { id: 1, name: "HTML", status: true, color: "#e34c26" },       // Orange-red
+    { id: 2, name: "CSS", status: true, color: "#264de4" },        // Blue
+    { id: 3, name: "Javascript", status: true, color: "#f0db4f" }, // Yellow (use black text if needed)
+    { id: 4, name: "React", status: true, color: "#61dafb" },      // Light blue (border/dark bg can help)
+    { id: 5, name: "Typescript", status: true, color: "#007acc" }, // Blue
+    { id: 6, name: "Node.js", status: true, color: "#3c873a" },    // Green
+    { id: 7, name: "Python", status: true, color: "#306998" },     // Dark blue
+    { id: 8, name: "Ruby", status: true, color: "#cc342d" },       // Dark red
+    { id: 9, name: "Assembly", status: true, color: "#555555" }    // Dark gray
   ];
+  
 
   export const removalmsg = [
     { id: 1, message: "Ohh no, HTML is removed..." },
@@ -32,7 +33,6 @@ export const languages = [
     { id: 6, message: "Node.js is gone. Backend shakes!" },
     { id: 7, message: "Python slithered away..." },
     { id: 8, message: "Ruby has been shattered and removed." },
-    { id: 9, message: "Boom! Assembly has vanished into bits." }
   ];
    
   
